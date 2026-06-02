@@ -1,5 +1,6 @@
 import csv
 
+# Import CSV é uma api nativa do Python, diferente de Pandas que precisa baixar
 # Caminho para o arquivo CSV (Está dentro da própria pasta)
 caminho_do_arquivo: str = "exemplo.csv"
 
@@ -11,6 +12,7 @@ arquivo_csv: list = []
 # Encoding="utf-8" é para garantir que o arquivo seja lido corretamente e parece ser padrão.
 # Arquivo no final é onde vai salvar
 with open(file=caminho_do_arquivo, mode="r", encoding="utf-8") as arquivo:
+
     # Cria um objeto leitor de CSV o DictReader é função do módulo import CSV
     leitor_csv = csv.DictReader(arquivo)
 
@@ -22,3 +24,7 @@ with open(file=caminho_do_arquivo, mode="r", encoding="utf-8") as arquivo:
 print(arquivo_csv)
 
 # Arquivo CSV lido agora como dicionário
+
+# Exibindo os dados lidos no arquivo CSV
+for registro in arquivo_csv:
+    print(registro)
