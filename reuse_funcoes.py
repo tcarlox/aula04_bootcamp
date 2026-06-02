@@ -1,5 +1,6 @@
 # Vou repetir a função que criei em outro arquivo (reuse) para mostrar como funciona
 # imports = usar código que foi escrito em outros arquivos
+# É bem comum criar arquivos com funções e reutilizá-los em outros arquivos
 
 from funcoes import ordenar_lista_de_numeros
 

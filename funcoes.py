@@ -1,4 +1,9 @@
 # Aula de funções
+# A forma que nomeamos variáveis e listas segue a PEP8 (Convenção de estilo do Python)
+# Snake_case: palavras em minúsculo separadas por underline
+# CamelCase: palavras em minúsculo exceto a primeira letra de cada palavra separadas por underscore
+# PascalCase: palavras em minúsculo exceto a primeira letra de cada palavra separadas por underscore
+
 lista_de_numeros: list = [40, 50, 60, 70, 0, -408593, 1, 50]
 
 # [40,50,60,70,0,-408593,1,50]
