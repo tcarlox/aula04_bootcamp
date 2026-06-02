@@ -1,0 +1,6 @@
+nome, quantidade, preco, disponibilidade
+"lapis", 10, 0.50, True
+"borracha", 5, 0.25, False
+"caneta", 20, 1.00, True
+"caderno", 15, 2.50, False
+"régua", 12, 1.50, True
